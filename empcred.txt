@@ -1,0 +1,17 @@
+1.) Setup fresh laravel package (i.e. Laravel 8.*) under below mentioned path:
+      >  Create New Folder in /var/www/html/<yourname>_<date>
+      >  For example, /var/www/html/FirstNameLastName_20230208
+
+2.) Setup basic Laravel Auth (Set Username: admin@admin.com   &   Password:  12345678)
+
+3.) CRUD functionality (Create / Read / Update / Delete[Use Soft Delete] ) for two menu items: Organization and Employees.
+      > Organization Fields:  name(Required), email, phone_number
+      > Employees Fields:     first_name(Required), last_name(Required), OrganizationId(Foreign Key of Organization Table), email, phone_number
+
+4.) You can use default Laravel make:auth for Login/Register. Page design is not a priority.	
+
+Base url : 127.0.0.1:8000
+Database Username : root
+Database password : tumko34h1se
+Time Limit: 1:30 Hrs + 15mi
+n
